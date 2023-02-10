@@ -353,6 +353,10 @@ footer {
   .row {
     display: block;
   }
+  #home button {
+    margin: 0 auto;
+    padding: 8px;
+  }
   .heading {
     margin: 0 3rem;
   }
