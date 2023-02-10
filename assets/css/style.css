@@ -346,6 +346,13 @@ footer {
   header {
     width: 100vw;
   }
+  #home {
+    padding: 0;
+    text-align: center;
+  }
+  .row {
+    display: block;
+  }
   .heading {
     margin: 0 3rem;
   }
