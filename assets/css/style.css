@@ -353,12 +353,21 @@ footer {
   .row {
     display: block;
   }
-  #home button {
+  .heading {
+    margin: 0 3rem;
+  }
+  .counter {
+    margin-top: 80px;
+  }
+  #education {
+    margin-top: 100px;
+  }
+  button {
     margin: 0 auto;
     padding: 8px;
   }
-  .heading {
-    margin: 0 3rem;
+  section {
+    min-height: 40vh;
   }
   .about .row .counter .box {
     width: 100%;
