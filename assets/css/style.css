@@ -123,6 +123,7 @@ button:hover {
   text-transform: uppercase;
   font-size: 2.5em;
   padding: 10px;
+  margin-bottom: 35px;
 }
 .heading:hover {
   scale: 1.5;
@@ -208,10 +209,10 @@ section {
   grid-gap: 30px;
 }
 .box-container-2 img:hover {
-  zoom: 120%;
+  zoom: 200%;
   cursor: pointer;
   transition: all 0.2s linear;
-  opacity: 50%;
+  opacity: 90%;
 }
 .info-1 {
   margin: 100px auto;
@@ -255,6 +256,16 @@ textarea {
   color: #1971c2;
   margin-right: 15px;
 }
+
+.info-1 h3::after {
+  content: "NE RADI FORMA";
+  color: red;
+  opacity: 50%;
+  padding: 15px;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+}
+
 footer {
   background-color: #d0ebff;
   font-size: 0.5em;
@@ -346,28 +357,8 @@ footer {
   header {
     width: 100vw;
   }
-  #home {
-    padding: 0;
-    text-align: center;
-  }
-  .row {
-    display: block;
-  }
   .heading {
     margin: 0 3rem;
-  }
-  .counter {
-    margin-top: 80px;
-  }
-  #education {
-    margin-top: 100px;
-  }
-  button {
-    margin: 0 auto;
-    padding: 8px;
-  }
-  section {
-    min-height: 40vh;
   }
   .about .row .counter .box {
     width: 100%;
