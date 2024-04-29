@@ -25,6 +25,9 @@ body {
   background-color: #e7f5ff;
   color: #333;
 }
+nav a {
+
+}
 .user img {
   width: 300px;
   border-radius: 50%;
@@ -59,7 +62,6 @@ header a {
   border-radius: 20px;
   display: block;
   font-size: 1em;
-  text-transform: uppercase;
   font-weight: bold;
   color: #f7f7f7;
   background-color: #1971c2;
@@ -117,6 +119,10 @@ button:hover {
 }
 #home {
   min-height: 100vh;
+}
+.home p {
+  font-weight: bold;
+  font-size: 30px;
 }
 .heading {
   text-align: center;
@@ -197,19 +203,56 @@ section {
   font-size: 1em;
   line-height: 35px;
 }
+.box-3 span {
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: #1971c2;
+  padding: 8px;
+  border-radius: 15px;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.box-3{
+  width: 800px;
+  margin: 0 auto;
+  background-color:#d0ebff;
+  padding: 50px;
+  border-radius: 30px;
+  text-align: center;
+  margin-bottom: 50px
+  
+}
+.box-21 {
+  text-align: center;
+
+}
+.box-3 p{
+  letter-spacing: 1px;
+  
+}
+.box-21 h3 {
+  margin-top: 20px;
+}
 .box-container-2 img {
   width: 300px;
   border-radius: 10px;
 }
+.boxx img{
+  margin-bottom: 110px;
+}
+
 .box-container-2 {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
   justify-content: space-evenly;
   grid-gap: 30px;
+  margin-left: 10%;
 }
 .box-container-2 img:hover {
-  zoom: 200%;
+  zoom: 130%;
   cursor: pointer;
   transition: all 0.2s linear;
   opacity: 90%;
@@ -297,6 +340,11 @@ footer {
     overflow-x: hidden;
   }
   .box-1 span {
+    background-color: #e7f5ff;
+    color: #333;
+    line-height: 5px;
+  }
+  .box-3span {
     background-color: #e7f5ff;
     color: #333;
     line-height: 5px;
