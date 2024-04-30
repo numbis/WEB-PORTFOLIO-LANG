@@ -28,6 +28,12 @@ body {
 nav a {
 
 }
+
+.post {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
 .user img {
   width: 300px;
   border-radius: 50%;
@@ -86,8 +92,8 @@ header a:hover {
   align-content: center;
   padding: 0 15rem;
 }
-#home h3 {
-  font-size: 2.5em;
+#home h2 {
+  font-size: 5em;
   margin-top: 50px;
   color: #1971c2;
 }
@@ -113,6 +119,8 @@ button {
   display: block;
   text-decoration: none;
 }
+
+
 button:hover {
   background-color: #4dabf7;
   scale: 1.3;
@@ -148,7 +156,7 @@ button:hover {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
-  grid-gap: 40px;
+  grid-gap: 50px;
   text-align: center;
 }
 .box {
@@ -355,6 +363,9 @@ footer {
   .box-container-2 img {
     width: 100%;
   }
+  .box-3 {
+    width: 100%;
+  }
 }
 @media (max-width: 991px) {
   section {
@@ -397,7 +408,7 @@ footer {
     margin: 0 auto;
     padding: 0;
   }
-
+  
   section {
     min-height: 30vh;
   }
