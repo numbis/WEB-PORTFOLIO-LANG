@@ -138,6 +138,7 @@ button:hover {
   font-size: 2.5em;
   padding: 10px;
   margin-bottom: 35px;
+  margin-top: 50px;
 }
 .heading:hover {
   scale: 1.5;
@@ -248,9 +249,22 @@ section {
   border-radius: 10px;
 }
 .boxx img{
-  margin-bottom: 110px;
+  margin-bottom: 100px;
 }
-
+.boxx :last-of-type {
+  margin-bottom: 0;
+}
+.box-2 {
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+.box-2 span {
+  color: #1971c2;
+}
 .box-container-2 {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -260,7 +274,7 @@ section {
   margin-left: 10%;
 }
 .box-container-2 img:hover {
-  zoom: 130%;
+  zoom: 150%;
   cursor: pointer;
   transition: all 0.2s linear;
   opacity: 90%;
