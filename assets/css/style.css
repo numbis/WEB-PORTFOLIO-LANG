@@ -30,7 +30,7 @@ nav a {
 }
 
 .post {
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 20px;
   letter-spacing: 2px;
 }
@@ -69,8 +69,8 @@ header a {
   display: block;
   font-size: 1em;
   font-weight: bold;
-  color: #f7f7f7;
-  background-color: #1971c2;
+  color: #333;
+  border: 3px solid #1971c2;
   padding: 10px;
   width: 125px;
 }
@@ -274,10 +274,11 @@ section {
   margin-left: 10%;
 }
 .box-container-2 img:hover {
-  zoom: 200%;
+  zoom: 140%;
   cursor: pointer;
   transition: all 0.2s linear;
   opacity: 90%;
+  overflow: none;
 }
 .info-1 {
   margin: 100px auto;
