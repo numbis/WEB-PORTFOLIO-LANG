@@ -28,7 +28,15 @@ body {
 nav a {
 
 }
-
+#menu {
+  display: block;
+}
+header {
+  left: -120%;
+}
+header.toggle {
+  left: 0%;
+}
 .post {
   font-weight: bolder;
   font-size: 20px;
@@ -77,12 +85,14 @@ header a {
 header a:hover {
   opacity: 70%;
 }
+
 #home,
 #about,
 #education,
 #portfolio,
 #contact {
-  margin-left: 400px;
+ margin: 0 auto;
+ text-align: center;
 }
 
 #home {
@@ -93,7 +103,7 @@ header a:hover {
   padding: 0 15rem;
 }
 #home h2 {
-  font-size: 5em;
+  font-size: 7em;
   margin-top: 50px;
   color: #1971c2;
 }
@@ -115,7 +125,7 @@ button {
   color: #f7f7f7;
   font-weight: bold;
   font-size: 1em;
-  margin: 20px 30px;
+  margin: 20px auto;
   display: block;
   text-decoration: none;
 }
@@ -157,7 +167,8 @@ button:hover {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
-  grid-gap: 50px;
+  justify-content: space-evenly;
+  grid-gap: 100px;
   text-align: center;
 }
 .box {
@@ -193,6 +204,12 @@ section {
   gap: 100px;
   padding: 50px;
   overflow-x: visible;
+}
+.box-two {
+  display: flex;
+    flex-direction: column;
+    align-items: center; /* Center images horizontally, optional */
+    justify-content: center; /* Center images vertically, optional */
 }
 .box-1 span {
   font-size: 1.5em;
@@ -245,7 +262,7 @@ section {
   margin-top: 20px;
 }
 .box-container-2 img {
-  width: 300px;
+  width: 450px;
   border-radius: 10px;
 }
 .boxx img{
@@ -271,7 +288,7 @@ section {
   grid-template-rows: auto auto auto;
   justify-content: space-evenly;
   grid-gap: 30px;
-  margin-left: 10%;
+  
 }
 .box-container-2 img:hover {
   zoom: 140%;
@@ -350,7 +367,11 @@ footer {
   font-size: 2.5rem;
   padding: 1rem 1.5rem;
   z-index: 1000;
-  display: none;
+  display: block;
+  
+}
+header {
+  left: -120%;
 }
 @media (max-width: 1200px) {
   html {
@@ -381,6 +402,7 @@ footer {
   .box-3 {
     width: 100%;
   }
+  
 }
 @media (max-width: 991px) {
   section {
@@ -388,6 +410,9 @@ footer {
   }
   header {
     left: -120%;
+  }
+  header.toggle {
+    left: 0%;
   }
   #home {
     min-height: 70vh;
@@ -399,12 +424,8 @@ footer {
   #contact {
     margin-left: 0;
   }
-  #menu {
-    display: block;
-  }
-  header.toggle {
-    left: 0%;
-  }
+  
+  
   body {
     padding: 0;
   }
