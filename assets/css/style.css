@@ -274,7 +274,7 @@ section {
   margin-left: 10%;
 }
 .box-container-2 img:hover {
-  zoom: 150%;
+  zoom: 200%;
   cursor: pointer;
   transition: all 0.2s linear;
   opacity: 90%;
