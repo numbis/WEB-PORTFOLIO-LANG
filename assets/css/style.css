@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -205,6 +206,27 @@ section {
   padding: 50px;
   overflow-x: visible;
 }
+.owl-carousel .owl-item img {
+  width: 100%;
+  height: auto;
+  margin: auto auto;
+  text-align: center;
+}
+.owl-one img:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  font-size: 4em;
+  
+}
+
+.owl-nav {
+  display: flex;
+}
+  
+
+
 .box-two {
   display: flex;
     flex-direction: column;
@@ -366,12 +388,13 @@ footer {
   cursor: pointer;
   font-size: 2.5rem;
   padding: 1rem 1.5rem;
-  z-index: 1000;
+  z-index: 100000000;
   display: block;
   
 }
 header {
   left: -120%;
+  z-index: 100000000;
 }
 @media (max-width: 1200px) {
   html {
